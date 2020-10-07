@@ -56,7 +56,7 @@ export default class OrxeButton extends TranslationClass {
           class="button__icon--close"          
           a11y-label=${this.a11yCloseLabel || this.t('orxe-button.ally_close_label')}
           data-testid="close-icon"
-          @click=${this._destroySecondarybutton}
+          @click=${this._destroyFloatingbutton}
         >
         </orxe-button>
       `;
@@ -66,7 +66,7 @@ export default class OrxeButton extends TranslationClass {
   /**
    * This methid will destroy the floating button, when user click on the close icon
    */
-  private _destroySecondarybutton(): void {
+  private _destroyFloatingbutton(): void {
     this.remove();
   }
 
