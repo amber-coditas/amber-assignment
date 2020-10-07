@@ -1,5 +1,5 @@
 {
-  "name": "@orxe-components/card",
+  "name": "@orxe-components/button",
   "version": "1.0.31",
   "description": "Orxe Component",
   "main": "dist/index.js",
