@@ -1,0 +1,9 @@
+:host{
+    --button-font-family: var(--global-font-family);
+    --button-font-color: var(--neutral);
+    --button-font-weight: var(--font-weight-regular);
+    --button-close-icon-color: currentColor;
+    --button-background-color: var(--primary);
+    --button-min-height: 48px;
+}
+$button-font-size: 1.6rem;

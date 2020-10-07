@@ -1,0 +1,25 @@
+@import "./hotel-button-map.scss";
+
+.button__container {
+  font-family: var(--global-font-family);
+  font-size:var(--button-font-size);
+  font-weight:var(--font-weight-regular)
+  
+  &[button-type='floating-button'] {
+    position: relative;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16);
+    max-height: var(--button-max-height);
+    .button__icon--close {
+      --button-icon-color: var(--button-close-icon-color);
+      position: absolute;
+      top: 0;
+      right: 0;
+      cursor: pointer;
+      background-color: inherit;
+      min-width: 80px;
+      border-radius: 2px;
+    }
+  }
+}
+
+

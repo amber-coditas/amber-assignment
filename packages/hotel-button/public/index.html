@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes" />
+
+  <title>Orxe3 Components</title>
+
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://components.qa.cnxloyalty.com/theme/css/imports.css"
+  />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.3.0/custom-elements-es5-adapter.js"></script>
+
+</head>
+
+<body>
+  <style>
+    body {
+      background-color: #ccc;
+    }
+
+    .conatainer {
+      width: 40%;
+      background-color: grey;
+    }
+
+    .button-conatiner {
+      display: grid;
+      position: relative;
+    }
+
+    .default-button-img {
+      width: 100%;
+      height: 190px;
+    }
+
+   .float-button-container {
+      display: grid;
+      grid-template-columns: 40% 60%;
+      position: relative;
+    }
+
+    
+  </style>
+
+  <h4>Primary Button</h4>
+  <br /><br />
+  <div class="conatainer">
+    <orxe-button>
+      <div class="button-conatiner">
+        Default Button
+      </div>
+    </orxe-button>
+  </div>
+
+  <h4>Floating Button</h4>
+  <br /><br />
+  <div class="conatainer">
+    <orxe-button button-type='floating-button' a11y-close-label='close the button' close-icon>
+      <div class="float-button-container">
+        Float Button        
+      </div>
+    </orxe-button>
+  </div>
+  </div>
+</body>
+
+</html>
