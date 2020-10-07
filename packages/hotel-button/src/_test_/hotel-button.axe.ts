@@ -7,9 +7,9 @@ describe('orxe-button-axe', () => {
   let button;
 
   beforeEach(function() {
-    Orxebutton;
+    OrxeButton;
     document.body.appendChild(document.createElement('orxe-button'));
-    button = document.querySelector('orxe-button') as Orxebutton;
+    button = document.querySelector('orxe-button') as OrxeButton;
   });
 
   afterEach(function() {
